@@ -18,6 +18,7 @@
 	<link rel="shortcut icon" href="https://ipodcraft.github.io/Mis-Assets/JunMC13/img/logo.png" />
 	<link href="https://ipodcraft.github.io/Mis-Assets/copyright.css" rel="stylesheet">
 	<link href="https://ipodcraft.github.io/Mis-Assets/JunMC13/css/textos.css" rel="stylesheet">
+	<script src="https://ipodcraft.github.io/Mis-Assets/MCBE_Downloader/api/index.js"></script>
 </head>
 
 <body id="page-top">
@@ -46,6 +47,12 @@
                     <span class="menu-inicio"></span></a>
             </li>
 			
+			<li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://mcbedownloader.ml/">
+                    <i class="fab fa-fw fa-android"></i>
+                    <span class="menu-apks"></span></a>
+            </li>
+			
             <li class="nav-item">
             <a class="nav-link" href="/mapas/">
                 <i class="fas fa-fw fa-map"></i>
@@ -63,15 +70,11 @@
                 <i class="fab fa-fw fa-angular"></i>
                 <span class="menu-agacraft"></span></a>
             </li>
+			
 			<li class="nav-item">
             <a class="nav-link" href="/proyectos/">
                 <i class="fas fa-fw fa-code"></i>
                 <span class="menu-proyectos"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/pocketland/">
-                    <i class="fas fa-fw fa-users"></i>
-                    <span class="menu-pocketland"></span></a>
             </li>
             <!-- //BARRA LATERAL -->
 			
@@ -112,9 +115,23 @@
 
                     <!-- Content Row -->
                     <div class="row">
+					
+					    <!-- APK -->
+                        <div class="col-lg-5 mb-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary tarjeta-apk"></h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="apk-container"></div>
+                                </div>
+                            </div>
+                        </div>
+						<!-- //APK -->
+
 
                         <!-- MAPA -->
-                        <div class="col-lg-6 mb-4">
+                        <div class="col-lg-7 mb-4">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary tarjeta-mapa"></h6>
@@ -140,6 +157,7 @@
                             </div>
                         </div>
 						<!-- //MAPA -->
+						
 						
 						<!-- ADDON -->
                         <div class="col-lg-6 mb-4">
@@ -170,8 +188,9 @@
                         </div>
 						<!-- //ADDON -->
 						
+						
 						<!-- AGACRAFT -->
-                        <div class="col-lg-5 mb-4">
+                        <div class="col-lg-6 mb-4">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary tarjeta-aga"></h6>
@@ -192,68 +211,31 @@
                         </div>
 						<!-- //AGACRAFT -->
 
+
                         <!-- PROYECTO -->
-                        <div class="col-lg-7 mb-4">
+                        <div class="col-lg-12 mb-4">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary tarjeta-proyecto"></h6>
                                 </div>
                                 <div class="card-body">
 								
-								<!-- P-R ->
-								<div class="col-lg-4 izquierda">
-								   <center><img src="" width="85%" class="espacio-img"></center>
+								<!-- PR -->
+								<div class="col-lg-5 izquierda">
+								   <center><img src="https://ipodcraft.github.io/Mis-Assets/JunMC13/img/proyectos/MCBE%20Downloader%20Auto%20Update.PNG" width="100%" class="espacio-img"></center>
 								</div>
-								<div class="col-lg-8 derecha">
-								   <center><h4 class="text-ee"><b>.</b></h4>
-                                   <p>.</p>
-								   <button class="btn btn-outline-primary btn-block">Descarga NOMBRE DEL PROYECTO</button></center>
+								<div class="col-lg-7 derecha">
+								   <center><h4 class="text-ee"><b>MCBE Downloader Auto Update</b></h4>
+								   <p><b>Descripción Breve: </b>Página de Uso Libre que puedes editar los estilos. Las apks de Minecraft Bedrock se suben automaticamente y son: Sin licencia, Inicio de Sesión y con Acceso a mundos de amigos, servidorss y realms.</p>
+                                   <p><b>Tamaño: </b>1.90 MB</p>
+								   <p><b>Versión: </b>1.0.0</p>
+								   <p><b>Creador: </b>JunMC13</p>
+								   <a href="/proyectos/mcbedownloader_autoupdate"><button class="btn btn-outline-primary btn-block"><i class="fas fa-eye"></i> Descargar MCBE Downloader Auto Update</button></a></center>
 								</div>
-								<!- //P-R -->
+								<!-- //PR -->
 								
 								</div></div></div>
 						<!-- //PROYECTO -->
-
-
-                        <!-- POCKETLAND -->
-                        <div class="col-lg-12 mb-4">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary tarjeta-pocketland"></h6>
-                                </div>
-                                <div class="card-body">
-								
-								    <!-- T1 ->
-									<div class="col-lg-4 izquierda">
-									<center><img src="" class="espacio-img" width="200px">
-									<h4 class="text-ee"><b>PocketLand Temporada 1</b></h4>
-									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Integrantes</button></a>
-									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Episodios</button></a></center><hr>
-									</div>
-                                    <!- //T1 -->
-									
-									<!-- T2 ->
-									<div class="col-lg-4 izquierda">
-									<center><img src="" class="espacio-img" width="200px">
-									<h4 class="text-ee"><b>PocketLand Temporada 2</b></h4>
-									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Integrantes</button></a>
-									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Episodios</button></a></center><hr>
-									</div>
-									<!- //T2 -->
-									
-									<!-- T3 ->
-									<div class="col-lg-4 derecha">
-									<center><img src="" class="espacio-img" width="200px">
-									<h4 class="text-ee"><b>PocketLand Temporada 3</b></h4>
-									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Integrantes</button></a>
-									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Episodios</button></a></center><hr>
-									</div>
-									<!- //T3 -->
-									
-                                </div>
-                            </div>
-                        </div>
-						<!-- //POCKETLAND -->
 						
                     </div>
                     <!-- Content Row -->

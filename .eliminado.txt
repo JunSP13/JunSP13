@@ -1,0 +1,68 @@
+= NAVBAR =
+
+<li class="nav-item">
+    <a class="nav-link" href="/pocketland/">
+    <i class="fas fa-fw fa-users"></i>
+    <span class="menu-pocketland"></span></a>
+</li>
+
+
+
+
+
+= CSS =
+.menu-pocketland::before{
+	content: "PocketLand";
+}
+.cbr-pocketland::before{
+	content: "PocketLand";
+}
+.tarjeta-pocketland::before{
+	content: "PocketLand :";
+}
+
+
+
+
+
+= CODIGO =
+		
+<!-- POCKETLAND -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary tarjeta-pocketland"></h6>
+                                </div>
+                                <div class="card-body">
+								
+								    <!-- T1 ->
+									<div class="col-lg-4 izquierda">
+									<center><img src="" class="espacio-img" width="200px">
+									<h4 class="text-ee"><b>PocketLand Temporada 1</b></h4>
+									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Integrantes</button></a>
+									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Episodios</button></a></center><hr>
+									</div>
+                                    <!- //T1 -->
+									
+									<!-- T2 ->
+									<div class="col-lg-4 izquierda">
+									<center><img src="" class="espacio-img" width="200px">
+									<h4 class="text-ee"><b>PocketLand Temporada 2</b></h4>
+									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Integrantes</button></a>
+									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Episodios</button></a></center><hr>
+									</div>
+									<!- //T2 -->
+									
+									<!-- T3 ->
+									<div class="col-lg-4 derecha">
+									<center><img src="" class="espacio-img" width="200px">
+									<h4 class="text-ee"><b>PocketLand Temporada 3</b></h4>
+									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Integrantes</button></a>
+									<a href=""><button class="btn btn-outline-primary btn-espacio">Ver Episodios</button></a></center><hr>
+									</div>
+									<!-- //T3 -->
+									
+                                </div>
+                            </div>
+                        </div>
+<!-- //POCKETLAND -->
